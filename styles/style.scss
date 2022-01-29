@@ -4,7 +4,7 @@ $Facebook: hsl(208, 92%, 53%);
 $Twitter: hsl(203, 89%, 53%);
 $Instagram: linear-gradient(hsl(37, 97%, 70%) to hsl(329, 70%, 58%));
 $YouTube: hsl(348, 97%, 39%);
-$Toggle: linear gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%);
+$Toggle: hsl(210, 78%, 56%) to hsl(146, 68%, 55%);
 $ToggleOutline: hsl(230, 22%, 74%);
 $VeryDarkBlueBG: hsl(230, 17%, 14%);
 $VeryDarkBlueBG2: hsl(232, 19%, 15%);
@@ -28,16 +28,16 @@ html {
 }
 
 body {
-  background: linear-gradient(180deg, $VeryPaleBlue 35%, white 0%);
+  background-image: linear-gradient(180deg, $VeryPaleBlue 35%, white 0%);
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   min-height: 100vh;
   &.dark {
     color: white;
-    background: linear-gradient(
+    background-image: linear-gradient(
       180deg,
-      $VeryDarkBlueBG2 25%,
+      $VeryDarkBlueBG2 35%,
       $VeryDarkBlueBG 0%
     );
   }
