@@ -38,5 +38,8 @@ toggle.addEventListener('input', (e) => {
     for (let card of smallCard) {
       card.classList.remove('dark')
     }
+    for (let title of smallCardTitle) {
+      title.classList.remove('dark')
+    }
   }
 })
