@@ -161,8 +161,16 @@ main {
   padding: 2rem 5.5rem;
 }
 
+.first-grid .card:hover {
+  background-color: #e3e5ee;
+}
+
 .first-grid .card.dark {
   background-color: #252b43;
+}
+
+.first-grid .card.dark:hover {
+  background-color: #2d3452;
 }
 
 .first-grid .card:nth-child(1) {
@@ -276,8 +284,16 @@ main {
   cursor: pointer;
 }
 
+.second-grid .small-card:hover {
+  background-color: #e3e5ee;
+}
+
 .second-grid .small-card.dark {
   background-color: #252b43;
+}
+
+.second-grid .small-card.dark:hover {
+  background-color: #2d3452;
 }
 
 .second-grid .small-card:nth-child(1) {

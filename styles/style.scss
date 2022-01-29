@@ -133,8 +133,14 @@ main {
     background-color: $LightGrayishBlue;
     border-radius: 5px;
     padding: 2rem 5.5rem;
+    &:hover {
+      background-color: hsl(224, 24%, 91%);
+    }
     &.dark {
       background-color: $DarkCardBG;
+      &:hover {
+        background-color: #2d3452;
+      }
     }
     &:nth-child(1) {
       grid-area: topbox1;
@@ -206,8 +212,14 @@ main {
     display: flex;
     justify-content: space-between;
     cursor: pointer;
+    &:hover {
+      background-color: hsl(224, 24%, 91%);
+    }
     &.dark {
       background-color: $DarkCardBG;
+      &:hover {
+        background-color: #2d3452;
+      }
     }
     &:nth-child(1) {
       grid-area: smallCard1;
